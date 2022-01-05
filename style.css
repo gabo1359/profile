@@ -1,0 +1,103 @@
+body {
+    border-radius: 30px;
+    background-image: url("https://www.urban-hub.com/wp/wp-content/uploads/2018/04/Lasecity_1920X8642.png");
+    background-attachment: fixed;
+}
+
+.card {
+    width: 750px;
+    margin: 50px auto;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+}
+
+.me {
+    border-radius: 50%;
+    border: 3px solid #ADAECB;
+}
+
+.follow {
+   font-size: 20px;
+   text-align: center;
+   padding: 10px;
+}
+
+.rps {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(54, 54, 179);
+    color: white;
+    font-size: 18px;
+}
+
+.fa-facebook, .fa-github, .fa-linkedin {
+    color: rgb(54, 54, 179);
+    font-size: 35px;
+}
+
+button > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.fa-facebook:hover, .fa-github:hover, .fa-linkedin:hover {
+    color: rgb(134, 16, 16);
+}
+
+button:hover {
+    background-color: rgb(134, 16, 16);
+    transition: 1s;
+}
+
+h3 {
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+ul > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+ul {
+    display: inline-block;
+    padding-left: 0px;
+    margin: 10px;
+}
+
+@media (max-width: 960px) {
+    .card {
+      width: 600px;
+    }
+}
+
+@media (max-width: 780px) {
+    .card {
+      width: 500px;
+    }
+}
+
+@media (max-width: 640px) {
+    .card {
+      width: 400px;
+    }
+}
